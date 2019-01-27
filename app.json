@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "android": {
+      "package": "com.greymedia.alcoExpert",
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "com.greymedia.alcoExpert",
+      "supportsTablet": true
+    },
+    "name": "alcoExpert",
+    "description": "this application helps to control the amount of alcohol drunk",
+    "slug": "alcoExpert",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      //"image": "./assets/splash.png",
+      //"resizeMode": "contain",
+      "backgroundColor": "#212128"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
